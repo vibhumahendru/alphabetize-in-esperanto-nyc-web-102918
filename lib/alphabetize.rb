@@ -4,6 +4,6 @@ def alphabetize(array)
   newAr = [] 
    array.sort_by do |element|
     newAr << element.split('')
-    newAr.each do
-     
+    newAr.each do |letter|
+     esperanto_alphabet.index(letter)
 end
