@@ -5,6 +5,5 @@ def alphabetize(array)
     element.split('').collect |letter|
      esperanto_alphabet.index(letter)
    end
- end
  
 end
