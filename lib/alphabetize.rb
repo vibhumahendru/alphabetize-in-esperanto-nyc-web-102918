@@ -6,4 +6,7 @@ def alphabetize(array)
     newAr << element.split('')
     newAr.each do |letter|
      esperanto_alphabet.index(letter)
+   end
+ end
+ 
 end
