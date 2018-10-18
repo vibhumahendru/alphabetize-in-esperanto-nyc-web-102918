@@ -3,7 +3,6 @@ def alphabetize(array)
 
    array.sort_by do |element|
     element.split('').collect |letter|
-    newAr.each do |letter|
      esperanto_alphabet.index(letter)
    end
  end
